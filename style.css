@@ -1,0 +1,60 @@
+body {
+    
+    padding: 0;
+    max-width: 1400px;
+    margin: 0 auto;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    background: radial-gradient(#ff00dd, #ffd000, #9198e5, #00d9ff, #ffd000, #9198e5, #00d9ff, #ffd000, #9198e5, #00d9ff, #ffd000, #9198e5, #ffd000, #9198e5, #00d9ff, #ffd000, #9198e5, #00d9ff, #ffd000, #9198e5, #00d9ff, #ffd000, #9198e5, #ffd000, #9198e5, #00d9ff, #ffd000, #9198e5, #00d9ff, #ffd000, #9198e5, #00d9ff, #ffd000, #9198e5, #ff00dd);
+}
+
+    h1{
+    font-size: 40px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 300;
+	font-style: normal;
+    color: rgb(39, 41, 41);
+    
+    text-align: center;
+}
+p{
+    font-size: 60px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: rgb(39, 41, 41);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.btn {
+    display: block;
+    border: solid 1px #ffd000;
+    font-size: 24px;
+    line-height: 2;
+    padding: 10px 18px;
+    border-radius: 50px;
+    background: radial-gradient(circle, #79a7e4 10%, #c4e0e7 80%, #ffd000 100%);
+    color: #ffffff;
+    cursor: hover;
+    transition: all 0.6s linear;
+    font-family: 'Helvetica, Arial, sans-serif';
+    font-weight: 300;
+	font-style: normal;
+    
+
+}
+
+.btn:hover {
+    background: transparent;
+    
+color: rgb(0, 0, 0); 
+}
+
+.btn-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
